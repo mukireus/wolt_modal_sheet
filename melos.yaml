@@ -6,6 +6,7 @@ packages:
   - coffee_maker
   - coffee_maker_navigator_2
   - demo_ui_components
+  - widgetbook
   - playground
   - playground_navigator2
   - wolt_di
