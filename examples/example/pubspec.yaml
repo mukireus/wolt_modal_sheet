@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
   wolt_modal_sheet:
-    path: ..
+    path: ../../packages/wolt_modal_sheet
 
 dev_dependencies:
   flutter_test:

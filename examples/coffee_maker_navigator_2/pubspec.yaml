@@ -15,7 +15,7 @@ dependencies:
   wolt_di:
     path: ../../packages/wolt_di
   wolt_modal_sheet:
-    path: ../..
+    path: ../../packages/wolt_modal_sheet
   demo_ui_components:
     path: ../demo_ui_components
   assets:

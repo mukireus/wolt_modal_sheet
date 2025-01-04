@@ -15,7 +15,7 @@ dependencies:
   wolt_state_management:
     path: ../../../packages/wolt_state_management
   wolt_modal_sheet:
-    path: ../../..
+    path: ../../../packages/wolt_modal_sheet
   coffee_maker_navigator_2:
     path: ../
   demo_ui_components:
