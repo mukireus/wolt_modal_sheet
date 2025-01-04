@@ -174,7 +174,7 @@ class WoltModalSheetHomePage extends StatelessWidget {
 
 The code above will show you the screen below:
 
-<img src="https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/basic_app_screenshot.png?raw=true" alt="WoltModalSheet with an endless list of items indicating the index of each item." width="280"/>
+<img src="https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/basic_app_screenshot.png?raw=true" alt="WoltModalSheet with an endless list of items indicating the index of each item." width="280"/>
 
 ### Basic Multi Page Example app
 
@@ -356,7 +356,7 @@ The example project above will create the following:
 </br>
 </br>
 
-![Example app](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/example_wms_demo.gif?raw=true)
+![Example app](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/example_wms_demo.gif?raw=true)
 
 ### Playground app with imperative navigation
 
@@ -404,7 +404,7 @@ current state:
   }
 ```
 
-![Dynamic pagination in action in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/ss_coffee_maker.gif?raw=true)
+![Dynamic pagination in action in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/ss_coffee_maker.gif?raw=true)
 
 ### Coffee maker app with Navigator 2.0
 
@@ -432,13 +432,13 @@ To see its usage, please check [coffee maker example app](examples/coffee_maker/
 
 Traverse through numerous pages within a single sheet.
 
-![Experience multi-page navigation in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/ss_multi.gif?raw=true)
+![Experience multi-page navigation in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/ss_multi.gif?raw=true)
 
 ### Scrollable Content
 
 Easily accommodates large content by using scrollable pages.
 
-![Scroll with ease in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/ss_scrolling.gif?raw=true)
+![Scroll with ease in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/ss_scrolling.gif?raw=true)
 
 ### Responsive Design
 
@@ -446,14 +446,14 @@ The modal sheet is responsive, appearing as a dialog or side sheet on large
 screens and as a bottom sheet on small screens, guided by user-specified 
 conditions.
 
-![Adaptability to different screen sizes in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/ss_type_builder.gif?raw=true)
+![Adaptability to different screen sizes in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/ss_type_builder.gif?raw=true)
 
 ### Custom Modal Types
 
 The package offers four customizable modal types: bottom sheet, dialog, side 
 sheet, and alert dialog. It also supports creating entirely custom modal types.
 
-![Custom modal types in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/ss_custom_modals.gif?raw=true)
+![Custom modal types in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/ss_custom_modals.gif?raw=true)
 
 ### Motion
 
@@ -461,20 +461,20 @@ Engage users with dynamic motion for page transitions and scrolling.
 
 | Pagination                                                                                                 | Scrolling                                                                                             |
 | ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| ![Pagination](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/ss_motion_pagination.gif?raw=true) | ![Scrolling](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/ss_scroll_motion.gif?raw=true) |
+| ![Pagination](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/ss_motion_pagination.gif?raw=true) | ![Scrolling](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/ss_scroll_motion.gif?raw=true) |
 
 ### Imperative and Declarative Navigation
 
 The package showcases examples of both imperative and declarative navigation
 patterns to display modal sheet on screen.
 
-![Illustration of imperative and declarative navigation in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/ss_navigator_2.gif?raw=true)
+![Illustration of imperative and declarative navigation in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/ss_navigator_2.gif?raw=true)
 
 ### Dynamic Pagination
 
 User input can dynamically shape the modal sheet's page list.
 
-![Dynamic pagination in action in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/ss_dynamic_pagination.gif?raw=true)
+![Dynamic pagination in action in WoltModalSheet](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/ss_dynamic_pagination.gif?raw=true)
 
 ### State Management Integration
 
@@ -625,7 +625,7 @@ class TopNotificationSheetType extends WoltModalType {
 
 The above code creates this custom modal type:
 
-![Custom modal type](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/ss_custom_modal_type.gif?raw=true)
+![Custom modal type](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/ss_custom_modal_type.gif?raw=true)
 
 ### Modal Type Responsiveness
 
@@ -651,7 +651,7 @@ WoltModalSheet.show(
 The above code snippet produces the following modal types based on the
 dynamical screen width:
 
-![Responsive modals](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/ss_type_builder.gif?raw=true)
+![Responsive modals](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/ss_type_builder.gif?raw=true)
 
 ## Decorating modal types, modal, and pages
 WoltModalSheet uses the decorator pattern, which is a structural design 
@@ -1038,7 +1038,7 @@ following breakpoints:
 - **Breakpoint Small**: 524px ≤ Width < 768px
 - **Breakpoint XSmall**: Width < 524px
 
-![Breakpoints](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/breakpoints_design_guidelines.png?raw=true)
+![Breakpoints](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/breakpoints_design_guidelines.png?raw=true)
 
 ### Modal Types
 
@@ -1083,7 +1083,7 @@ this layer guides the user towards the next step, uses an optional gentle
 gradient on top to hint that there is more content below ready for scrolling.</li>
 </br>
 
-![Modal sheet page layers](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/modal_sheet_page.png?raw=true)
+![Modal sheet page layers](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/modal_sheet_page.png?raw=true)
 </br>
 
 By employing these various layers, you can create an interactive and visually
@@ -1092,7 +1092,7 @@ overall coherence of the page, serving a specific purpose and enhancing the
 overall user experience.
 </br>
 
-![Modal sheet elements breakdown](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/bottom_sheet_elements.jpeg?raw=true)
+![Modal sheet elements breakdown](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/bottom_sheet_elements.jpeg?raw=true)
 
 ### Navigation bar widgets
 
@@ -1162,7 +1162,7 @@ performance.
 
 Here is an example that shows all the modal sheet elements in use:
 
-![Modal sheet elements in use](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/bottom_sheet_example.jpeg?raw=true)
+![Modal sheet elements in use](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/bottom_sheet_example.jpeg?raw=true)
 
 ## Designer Collaboration Guide
 
@@ -1199,11 +1199,11 @@ providing an instance of  `WoltModalSheetAnimationStyle` class to
 
 #### Pagination Animation
 
-![Modal sheet elements in use](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/pagination_modal_sheet.png?raw=true)
+![Modal sheet elements in use](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/pagination_modal_sheet.png?raw=true)
 
 #### Scrolling Animation
 
-![Modal sheet elements in use](https://github.com/woltapp/wolt_modal_sheet/blob/main/doc/scrolling_modal_sheet.png?raw=true)
+![Modal sheet elements in use](https://github.com/woltapp/wolt_modal_sheet/blob/main/packages/wolt_modal_sheet/doc/scrolling_modal_sheet.png?raw=true)
 
 ### Example Configuration
 
