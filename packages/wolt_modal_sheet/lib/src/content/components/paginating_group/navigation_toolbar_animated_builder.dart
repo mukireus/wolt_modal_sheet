@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../../../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 import 'wolt_modal_sheet_page_transition_state.dart';
 

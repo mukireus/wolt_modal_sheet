@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 export 'wolt_bottom_sheet_type.dart';
 export 'wolt_alert_dialog_type.dart';

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'wolt_modal_sheet_hero_image.dart';
-import '../../../theme/wolt_modal_sheet_default_theme_data.dart';
-import '../../../../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/src/content/components/main_content/wolt_modal_sheet_hero_image.dart';
+import 'package:wolt_modal_sheet/src/theme/wolt_modal_sheet_default_theme_data.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 /// The main content widget within the scrollable modal sheet.
 ///

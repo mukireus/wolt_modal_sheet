@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 /// A [NonScrollingWoltModalSheetPage] is a specialized page for the [WoltModalSheet]
 /// that is designed to display content which is flexible in height but unlikely

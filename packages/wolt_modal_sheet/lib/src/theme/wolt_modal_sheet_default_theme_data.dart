@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../utils/wolt_breakpoints.dart';
-import '../../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/src/utils/wolt_breakpoints.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 @immutable
 class WoltModalSheetDefaultThemeData extends WoltModalSheetThemeData {

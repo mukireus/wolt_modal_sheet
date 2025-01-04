@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'non_scrolling_wolt_modal_sheet_page.dart';
-import 'wolt_modal_sheet_page.dart';
-import '../theme/wolt_modal_sheet_default_theme_data.dart';
-import '../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/src/modal_page/non_scrolling_wolt_modal_sheet_page.dart';
+import 'package:wolt_modal_sheet/src/modal_page/wolt_modal_sheet_page.dart';
+import 'package:wolt_modal_sheet/src/theme/wolt_modal_sheet_default_theme_data.dart';
+import 'package:wolt_modal_sheet/src/wolt_modal_sheet.dart';
 
 /// The page classes are responsible for creating a modal sheet page within the context of the
 /// [WoltModalSheet]. It's designed to represent a visually layered structure with clear

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import '../../lib/src/widgets/wolt_sticky_action_bar_wrapper.dart';
-import '../../lib/wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/src/widgets/wolt_sticky_action_bar_wrapper.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 void main() {
   group('WoltStickyActionBarWrapper', () {

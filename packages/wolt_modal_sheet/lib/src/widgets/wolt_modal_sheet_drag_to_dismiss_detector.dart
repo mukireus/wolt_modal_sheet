@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 class WoltModalSheetDragToDismissDetector extends StatelessWidget {
   const WoltModalSheetDragToDismissDetector({

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'sliver_wolt_modal_sheet_page.dart';
+import 'package:wolt_modal_sheet/src/modal_page/sliver_wolt_modal_sheet_page.dart';
 
 /// [WoltModalSheetPage] is a specialized subclass of [SliverWoltModalSheetPage], designed
 /// for scenarios where the main content of a modal sheet is a single non-sliver widget.

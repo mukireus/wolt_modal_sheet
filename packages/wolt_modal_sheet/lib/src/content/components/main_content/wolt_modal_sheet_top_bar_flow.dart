@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'wolt_modal_sheet_top_bar.dart';
-import '../../../theme/wolt_modal_sheet_default_theme_data.dart';
-import '../../../utils/soft_keyboard_closed_event.dart';
-import '../../../utils/wolt_layout_transformation_utils.dart';
-import '../../../../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/src/content/components/main_content/wolt_modal_sheet_top_bar.dart';
+import 'package:wolt_modal_sheet/src/theme/wolt_modal_sheet_default_theme_data.dart';
+import 'package:wolt_modal_sheet/src/utils/soft_keyboard_closed_event.dart';
+import 'package:wolt_modal_sheet/src/utils/wolt_layout_transformation_utils.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 /// [WoltModalSheetTopBarFlow] controls the top bar behavior within the modal sheet page
 /// provided by the [WoltModalSheetPage] when `isTopBarLayerAlwaysVisible` is set to false.

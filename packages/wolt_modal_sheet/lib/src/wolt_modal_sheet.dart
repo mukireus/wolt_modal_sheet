@@ -1,12 +1,12 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'content/wolt_modal_sheet_animated_switcher.dart';
-import 'theme/wolt_modal_sheet_default_theme_data.dart';
-import 'utils/wolt_modal_type_utils.dart';
-import 'widgets/wolt_animated_modal_barrier.dart';
-import 'widgets/wolt_modal_sheet_drag_to_dismiss_detector.dart';
-import '../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/src/content/wolt_modal_sheet_animated_switcher.dart';
+import 'package:wolt_modal_sheet/src/theme/wolt_modal_sheet_default_theme_data.dart';
+import 'package:wolt_modal_sheet/src/utils/wolt_modal_type_utils.dart';
+import 'package:wolt_modal_sheet/src/widgets/wolt_animated_modal_barrier.dart';
+import 'package:wolt_modal_sheet/src/widgets/wolt_modal_sheet_drag_to_dismiss_detector.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 /// Signature for a function that builds a list of [SliverWoltModalSheetPage] based on the given [BuildContext].
 typedef WoltModalSheetPageListBuilder = List<SliverWoltModalSheetPage> Function(

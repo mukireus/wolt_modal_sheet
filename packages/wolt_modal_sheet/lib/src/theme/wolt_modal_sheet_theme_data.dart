@@ -1,8 +1,8 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
-import 'wolt_modal_sheet_animation_style.dart';
-import '../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/src/theme/wolt_modal_sheet_animation_style.dart';
+import 'package:wolt_modal_sheet/src/wolt_modal_sheet.dart';
 
 @immutable
 class WoltModalSheetThemeData extends ThemeExtension<WoltModalSheetThemeData> {

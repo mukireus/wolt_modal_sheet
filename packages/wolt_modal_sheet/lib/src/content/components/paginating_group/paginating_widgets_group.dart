@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'paginating_widgets_group.dart';
+import 'package:wolt_modal_sheet/src/content/components/paginating_group/paginating_widgets_group.dart';
 
 export 'main_content_animated_builder.dart';
 export 'navigation_toolbar_animated_builder.dart';

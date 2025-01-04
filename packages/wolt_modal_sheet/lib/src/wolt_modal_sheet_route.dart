@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'theme/wolt_modal_sheet_default_theme_data.dart';
-import '../wolt_modal_sheet.dart';
-import 'utils/wolt_modal_type_utils.dart';
+import 'package:wolt_modal_sheet/src/theme/wolt_modal_sheet_default_theme_data.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/src/utils/wolt_modal_type_utils.dart';
 
 class WoltModalSheetRoute<T> extends PageRoute<T> {
   WoltModalSheetRoute({

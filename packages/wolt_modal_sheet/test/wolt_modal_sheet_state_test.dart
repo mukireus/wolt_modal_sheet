@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import '../lib/wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 void main() {
   testWidgets(

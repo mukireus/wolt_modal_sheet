@@ -1,5 +1,5 @@
 import 'package:flutter/widgets.dart';
-import '../../../../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 enum WoltModalSheetPageTransitionState {
   incoming,

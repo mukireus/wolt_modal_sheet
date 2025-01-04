@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import '../../../utils/wolt_layout_transformation_utils.dart';
-import '../../../../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/src/utils/wolt_layout_transformation_utils.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 /// The hero image widget displayed on top of the main content.
 ///

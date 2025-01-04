@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
-import 'soft_keyboard_closed_event.dart';
+import 'package:wolt_modal_sheet/src/utils/soft_keyboard_closed_event.dart';
 
 /// Mixin [WoltKeyboardClosureListenerMixin] adds functionality to track the soft keyboard's
 /// visibility within the application lifecycle. It leverages the [WidgetsBindingObserver]

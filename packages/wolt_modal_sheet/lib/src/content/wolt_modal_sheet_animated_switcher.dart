@@ -1,17 +1,17 @@
 import 'package:flutter/material.dart';
-import 'components/main_content/wolt_modal_sheet_main_content.dart';
-import 'components/main_content/wolt_modal_sheet_top_bar.dart';
-import 'components/main_content/wolt_modal_sheet_top_bar_flow.dart';
-import 'components/main_content/wolt_modal_sheet_top_bar_title.dart';
-import 'components/main_content/wolt_modal_sheet_top_bar_title_flow.dart';
-import 'components/paginating_group/paginating_widgets_group.dart';
-import 'components/paginating_group/wolt_modal_sheet_page_transition_state.dart';
-import 'wolt_modal_sheet_layout.dart';
-import '../theme/wolt_modal_sheet_default_theme_data.dart';
-import '../utils/wolt_keyboard_closure_listener_mixin.dart';
-import '../widgets/wolt_navigation_toolbar.dart';
-import '../widgets/wolt_sticky_action_bar_wrapper.dart';
-import '../../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/src/content/components/main_content/wolt_modal_sheet_main_content.dart';
+import 'package:wolt_modal_sheet/src/content/components/main_content/wolt_modal_sheet_top_bar.dart';
+import 'package:wolt_modal_sheet/src/content/components/main_content/wolt_modal_sheet_top_bar_flow.dart';
+import 'package:wolt_modal_sheet/src/content/components/main_content/wolt_modal_sheet_top_bar_title.dart';
+import 'package:wolt_modal_sheet/src/content/components/main_content/wolt_modal_sheet_top_bar_title_flow.dart';
+import 'package:wolt_modal_sheet/src/content/components/paginating_group/paginating_widgets_group.dart';
+import 'package:wolt_modal_sheet/src/content/components/paginating_group/wolt_modal_sheet_page_transition_state.dart';
+import 'package:wolt_modal_sheet/src/content/wolt_modal_sheet_layout.dart';
+import 'package:wolt_modal_sheet/src/theme/wolt_modal_sheet_default_theme_data.dart';
+import 'package:wolt_modal_sheet/src/utils/wolt_keyboard_closure_listener_mixin.dart';
+import 'package:wolt_modal_sheet/src/widgets/wolt_navigation_toolbar.dart';
+import 'package:wolt_modal_sheet/src/widgets/wolt_sticky_action_bar_wrapper.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 class WoltModalSheetAnimatedSwitcher extends StatefulWidget {
   final List<SliverWoltModalSheetPage> pages;

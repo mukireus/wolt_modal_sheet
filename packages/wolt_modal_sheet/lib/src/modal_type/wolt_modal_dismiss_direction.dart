@@ -1,4 +1,4 @@
-import '../wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/src/wolt_modal_sheet.dart';
 
 /// The direction in which a [WoltModalSheet] can be dismissed when drag to dismiss is enabled.
 enum WoltModalDismissDirection {

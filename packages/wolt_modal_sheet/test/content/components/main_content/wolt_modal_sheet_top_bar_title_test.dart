@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import '../../../../lib/src/content/components/main_content/wolt_modal_sheet_top_bar_title.dart';
-import '../../../../lib/wolt_modal_sheet.dart';
+import 'package:wolt_modal_sheet/src/content/components/main_content/wolt_modal_sheet_top_bar_title.dart';
+import 'package:wolt_modal_sheet/wolt_modal_sheet.dart';
 
 void main() {
   group('WoltModalSheetTopBarTitle tests', () {
