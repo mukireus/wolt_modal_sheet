@@ -178,7 +178,7 @@ The code above will show you the screen below:
 
 ### Basic Multi Page Example app
 
-The [example](./example/) app demonstrates how to display a two-pages modal
+The [example](../../examples/example/) app demonstrates how to display a two-pages modal
 sheet that can be customized for dark and light themes
 using [WoltModalSheetThemeData](./lib/src/theme/wolt_modal_sheet_theme_data.dart) theme
 extension.
@@ -246,7 +246,7 @@ Pagination involves a sequence of screens the user navigates sequentially. We ch
       ),
       heroImage: Image(
         image: NetworkImage(
-          'https://raw.githubusercontent.com/woltapp/wolt_modal_sheet/main/example/lib/assets/images/material_colors_hero${_isLightTheme ? '_light' : '_dark'}.png',
+          'https://raw.githubusercontent.com/woltapp/wolt_modal_sheet/main/examples/example/lib/assets/images/material_colors_hero${_isLightTheme ? '_light' : '_dark'}.png',
         ),
         fit: BoxFit.cover,
       ),
@@ -424,7 +424,7 @@ CupertinoApp(
   localizationsDelegates: const <LocalizationsDelegate<dynamic>>[DefaultMaterialLocalizations.delegate],
 )
 ```
-To see its usage, please check [coffee maker example app](examples/coffee_maker/lib/main.dart).
+To see its usage, please check [coffee maker example app](../../examples/coffee_maker/lib/main.dart).
 
 ## Features
 
